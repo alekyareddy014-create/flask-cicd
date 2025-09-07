@@ -25,7 +25,7 @@ jobs:
       - uses: docker/login-action@v3
         with:
           username: alekyareddy014
-          password: dckr_pat_fbQXYpA8lAFGu9fdSG9DW1Z5_MU
+          password: dckr_pat_PSgRtkfeqAzfIb7o8aVhBh8MCco
       - uses: docker/build-push-action@v6
         with:
           context: .
